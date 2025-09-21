@@ -1,0 +1,67 @@
+/* estilos.css para la tabla de index.html */
+
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para tabla de index.html */
+.tabla-nombres {
+  width: 60%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.tabla-nombres th, .tabla-nombres td {
+  padding: 12px 20px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.tabla-nombres th {
+  background-color: #0074D9;
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.tabla-nombres tr:hover {
+  background-color: #e6f7ff;
+}
+
+.tabla-nombres a {
+  color: #0074D9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tabla-nombres a:hover {
+  text-decoration: underline;
+  color: #005fa3;
+}
+
+/* Estilos para tabla de alumnoprueba.html */
+.tabla-alumnos {
+  width: 70%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.tabla-alumnos th, .tabla-alumnos td {
+  padding: 12px 18px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.tabla-alumnos th {
+  background-color: #2ECC40;
+  color: #fff;
+  font-size: 1.05em;
+}
+
+.tabla-alumnos tr:hover {
+  background-color: #eafbe7;
+}
